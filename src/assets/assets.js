@@ -89,7 +89,7 @@ export const testimonialsData = [
     image: profile_img_2,
     alt: "Portrait of Richard Nelson",
     rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "ଫର୍ଷ୍ଟ ମିଟିଂରୁ, ସେମାନେ ମୋର ଭାବନାକୁ ବୁଝି ପାର୍ଫେକ୍ଟ ଘର ଖୋଜିଦେଲେ। ସେମାନଙ୍କର ଧ୍ୟାନ ଏବଂ କ୍ଲାୟେଣ୍ଟ ସନ୍ତୋଷ ପାଇଁ ପ୍ରୟାସ ଅଦ୍ଭୁତ।",
   },
   {
     name: "James Washington",
