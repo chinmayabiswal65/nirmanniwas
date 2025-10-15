@@ -1,0 +1,27 @@
+import React from "react";
+
+import Header from "./components/Header";
+import Navbar from "./components/NavBar";
+import About from "./components/About";
+import Project from "./components/Project";
+import Testimonial from "./components/Testimonial";
+import Contact from "./components/Contact";
+import { ToastContainer } from 'react-toastify';
+import Fotter from "./components/Fotter";
+
+
+const App = () => {
+  return (
+    <div className="w-full overflow-hidden">
+    <ToastContainer />
+    <Header />
+     <About />
+     <Project />
+     <Testimonial />
+     <Contact />
+     <Fotter />
+    </div>
+  );
+};
+
+export default App;
