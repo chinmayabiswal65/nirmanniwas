@@ -44,8 +44,48 @@ const Contact = () => {
         Ready to Make Your Move? Get in Touch Today!
       </p>
 
+      <div className="max-w-2xl mx-auto text-gray-600 pt-8  rounded-2xl shadow-md p-8">
+        <ol className="relative flex gap-8 before:absolute before:-mt-px before:h-0.5 before:w-full before:rounded-full before:bg-gray-200">
+          <li className="relative -mt-1.5">
+            <span className="block size-3 rounded-full bg-blue-600"></span>
+
+            <div className="mt-4">
+             
+
+              <h3 className="text-lg font-bold text-gray-900">Enter Your Details</h3>
+
+             
+            </div>
+          </li>
+
+          <li className="relative -mt-1.5">
+            <span className="block size-3 rounded-full bg-blue-600"></span>
+
+            <div className="mt-4">
+            
+
+              <h3 className="text-lg font-bold text-gray-900">
+                Submit Your Details
+              </h3>
+
+            </div>
+          </li>
+
+          <li className="relative -mt-1.5">
+            <span className="block size-3 rounded-full bg-blue-600"></span>
+
+            <div className="mt-4">
+             
+
+              <h3 className="text-lg font-bold text-gray-900">Our Team will get Touch with you</h3>
+
+            </div>
+          </li>
+        </ol>
+      </div>
+
       <form
-        className="max-w-2xl mx-auto text-gray-600 pt-8 border border-gray-300 bg-gray-50 rounded-2xl shadow-md p-8"
+        className="max-w-2xl mx-auto text-gray-600 mt-3 pt-8 border border-gray-300 bg-gray-50 rounded-2xl shadow-md p-8"
         onSubmit={onSubmit}
       >
         <div className="flex flex-wrap">

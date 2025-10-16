@@ -21,7 +21,7 @@ const Testimonial = () => {
         {testimonialsData.map((testimonial, index) => (
           <div
             key={index}
-            className="max-w-[340px] border shadow-lg px-8 py-12 text-center"
+            className="max-w-[340px] border shadow-lg px-8 py-12 text-center h-[400px] overflow-auto"
           >
             <img
               src={testimonial.image}

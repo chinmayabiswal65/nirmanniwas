@@ -7,6 +7,7 @@ import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import { ToastContainer } from 'react-toastify';
 import Fotter from "./components/Fotter";
+import Team from "./components/Team";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <ToastContainer />
     <Header />
      <About />
+     <Team />
      <Project />
      <Testimonial />
      <Contact />
